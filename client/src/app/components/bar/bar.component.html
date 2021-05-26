@@ -1,0 +1,13 @@
+<div class="navbar navbar-expand-lg navbar-dark bg-dark" *ngIf="checkLogin() | async">
+    <a class="navbar-brand" href="#">{{title}}</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+        <ul class="navbar-nav justify-content-end">
+            <li class="nav-item">
+                <a routerLink="/register" class="nav-link right" href="#">Add user</a>
+            </li>
+            <li class="nav-item">
+                <a routerLink="/dashboard" class="nav-link" href="#">User List</a>
+            </li>
+        </ul>
+    </div>
+</div>
