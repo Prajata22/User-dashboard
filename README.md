@@ -5,7 +5,7 @@ To run server
 ```sh
 cd /path-to-server/
 ./mvnw spring-boot:run
-
+```
 
 To run client
 ```sh
